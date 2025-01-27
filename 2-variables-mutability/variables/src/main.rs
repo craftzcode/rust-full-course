@@ -1,3 +1,5 @@
+//! Variables
+
 fn main() {
     let apples = 50;
     let oranges = 14 + 6;

@@ -1,3 +1,5 @@
+//! Immutable & Mutable Variables
+
 fn main() {
     //* Immutable
     // In Rust, variables are immutable by default

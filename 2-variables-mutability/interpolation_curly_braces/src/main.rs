@@ -1,9 +1,9 @@
+//! Interpolation with Curly Braces
+// Allows embedding values into strings by placing variable names inside ({}) in the format string
+
 fn main() {
     let apples = 50;
     let oranges = 14 + 6;
-
-    //* Interpolation with Curly Braces
-    // Allows embedding values into strings by placing variable names inside {} in the format string
 
     // Old Rust Syntax
     // println!(

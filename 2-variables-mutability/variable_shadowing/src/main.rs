@@ -1,8 +1,8 @@
-fn main() {
-    //* Variable Shadowing
-    // Variable shadowing allows us to reuse the same variable name
-    // Each new declaration "shadows" the previous one, changing both the value and potentially the type
+//! Variable Shadowing
+// Variable shadowing allows us to reuse the same variable name
+// Each new declaration "shadows" the previous one, changing both the value and potentially the type
 
+fn main() {
     // First declaration - string type
     let grams_of_protein = "100.345";
     println!("First (String): {grams_of_protein}");
@@ -15,9 +15,9 @@ fn main() {
     let grams_of_protein = 100;
     println!("Third (i32): {grams_of_protein}");
 
-    //? PS: If we had used `let mut grams_of_protein` instead of shadowing,
-    // We couldn't change the data type
-    // Mutation only allows changing values of the same type
+    //? PS: If we had used (let mut grams_of_protein) instead of shadowing
+    //? We couldn't change the data type
+    //? Mutation only allows changing values of the same type
 
     // For example, this wouldn't work:
     // let mut grams_of_protein = "100.345";    // String type
