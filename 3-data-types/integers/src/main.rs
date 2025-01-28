@@ -33,7 +33,6 @@ fn main() {
 
     //* Alternative Syntax
     // Here, we are using a different syntax to define signed and unsigned integers.
-
     let signed_bit = 100i8; 
     let unsigned_bit = 200u8;
 }

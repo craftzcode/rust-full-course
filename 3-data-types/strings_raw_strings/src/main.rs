@@ -4,7 +4,6 @@ fn main() {
     //* String Literals
     // They are enclosed in double quotes
     // They can contain any valid UTF-8 characters
-
     // For example:
     println!("Hello World!");
 
@@ -25,7 +24,6 @@ fn main() {
     // It allows us to include characters that would otherwise be interpreted differently
     // Such as the (\) itself. In this case, it is used to specify the file path
     let filepath = "C:\\Users\\craftzcode\\Desktop\\Dev\\Rust\\rust-full-course";
-
     println!("{filepath}");
 
     //? PS: (\\) this syntax can be a little bit annoying due to just the confusing aspect of it
@@ -33,12 +31,8 @@ fn main() {
 
     //* Raw String
     // This will automatically ignore all special characters
-
     println!(r"Dear Ivan, \nHow have you been?");
-
     println!(r"\tOnce upon a time");
-
     println!(r#"Juliet said "I love you Romeo""#);
-
     println!(r"C:\Users\craftzcode\Desktop\Dev\Rust\rust-full-course");
 }
