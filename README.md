@@ -10,6 +10,7 @@ A comprehensive guide to learning Rust programming language.
 - [Cargo Basics](#cargo-basics)
 - [Project Conventions](#project-conventions)
 - [Commands Reference](#commands-reference)
+- [Type and Size of Variables](#type-and-size-of-variables)
 
 ## 🏗️ Project Structure
 
@@ -56,6 +57,13 @@ A comprehensive guide to learning Rust programming language.
 - `cargo run` - Compile and run the project in one command (no need to run `cargo build` first)
 - `cargo check` - Quickly verify if your code has any compilation errors (syntax errors, type mismatches, missing dependencies, etc.) without creating an executable file (faster than `cargo build`)
 - `cargo test` - Run project tests
+
+## 📝 Type and Size of Variables
+
+- Rust requires the type and size of a variable to be known at compile time
+- This is important for memory safety and preventing runtime errors
+- Rust is a statically typed language, which means it checks the types of variables at compile time
+- By knowing the type and size of a variable at compile time, Rust can allocate the necessary memory and prevent common errors like buffer overflows
 
 ## 📝 Notes
 
