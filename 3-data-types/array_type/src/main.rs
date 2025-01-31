@@ -17,4 +17,28 @@ fn main() {
     // This is important because Rust is a statically typed language, which means it checks the types of variables at compile time
     // By knowing the type and size of an array at compile time, Rust can allocate the necessary memory and prevent common errors like buffer overflows
     // let empty_array = [];
+
+    //? Reading & Writing Array Elements
+    // In Rust, array indexing starts at 0. This means that the first element of the array is at index 0,the second element is at index 1, and so on
+
+    // For example, in the 'seasons' array below
+    // 'Spring' is at index 0, 'Summer' is at index 1, 'Fall' is at index 2, and 'Winter' is at index 3.
+    let seasons = ["Spring", "Summer", "Fall", "Winter"];
+    // The following lines of code access elements from the 'seasons' array using their indices
+    // 'first_index' is assigned the value of the first element in the array (index 0), which is "Spring"
+    // 'second_index' is assigned the value of the second element in the array (index 1), which is "Summer"
+    let first_index = seasons[0];
+    let second_index = seasons[1];
+    println!("The first season is {first_index} and the second season is {second_index}");
+    println!("{}", seasons[3]);
+
+    // Arrays have a fixed size, meaning we cannot add or remove elements from them 
+    // However, we can create a mutable array that allows us to replace elements at specific indices
+    // Here is an example of a mutable array:
+    let mut numbers = [1, 2, 3, 4];
+    println!("Original array: {:?}", numbers);
+
+    // We can replace the element at index 2 (which is currently 3) with a new value, say 10
+    numbers[2] = 10;
+    println!("Updated array: {:?}", numbers);
 }

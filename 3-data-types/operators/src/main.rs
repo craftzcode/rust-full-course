@@ -1,7 +1,7 @@
 //! Operators
 
 fn main() {
-    //! MATH OPERATORS
+    //? MATH OPERATORS
 
     let a: f64 = 10.5;
     let b: f64 = 2.5;
@@ -34,7 +34,7 @@ fn main() {
     let modulus = (a as i32) % (b as i32);
     println!("The modulus of {a} and {b} is {modulus}");
 
-    //! Augmented Assignment Operator
+    //? Augmented Assignment Operator
     // This operator allows you to perform an operation on a variable and update its value in a more concise way
     // Instead of writing the variable name twice, you can use a shorthand that combines the operation and assignment into one step
     // For example, instead of writing `year = year + 1`, you can simply write `year += 1`, which makes the code cleaner and easier to read
@@ -45,7 +45,7 @@ fn main() {
     year += 1;
     println!("The new year is {year}");
 
-    //! EQUALITY OPERATOR
+    //? EQUALITY OPERATOR
 
     //* Integer
     let integer_a: i8 = 5;
@@ -84,7 +84,7 @@ fn main() {
         integer_a_with_casting_type == float_b_with_casting_type as i8;
     println!("Is integer_a_with_casting_type equal to float_b_with_casting_type? {is_equal_with_casting_type}");
 
-    //! INEQUALITY OPERATOR
+    //? INEQUALITY OPERATOR
 
     //* Integer
     let integer_c: i8 = 15;
@@ -123,7 +123,7 @@ fn main() {
         integer_c_with_casting_type != float_d_with_casting_type as i8;
     println!("Is integer_c_with_casting_type not equal to float_d_with_casting_type? {is_not_equal_with_casting_type}");
 
-    //! AND OPERATOR
+    //? AND OPERATOR
     // The AND logical operator (&&) returns (true) if both conditions are (true)
 
     //* &&
@@ -134,7 +134,7 @@ fn main() {
     let can_access: bool = is_admin && is_active;
     println!("Can access? {can_access}");
 
-    //! OR OPERATOR
+    //? OR OPERATOR
     // The OR logical operator (||) returns (true) if at least one of the conditions is (true)
     
     //* ||

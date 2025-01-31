@@ -6,7 +6,7 @@
 // You can think of the method as a command that we give to the value
 
 fn main() {
-    //* STRING METHODS
+    //? STRING METHODS
 
     //* Trim
     // The (trim()) method removes whitespace from both ends of a string.
@@ -41,7 +41,7 @@ fn main() {
         string_value_with_is_lowercase_method.is_lowercase()
     );
 
-    //* INTEGER METHODS
+    //? INTEGER METHODS
 
     //* ABS
     // The (abs()) method it returns the absolute value of the integer, which is the non-negative value of the number without regard to its sign.
@@ -55,7 +55,7 @@ fn main() {
     let integer_value_with_pow_method: i32 = -15;
     println!("{}", integer_value_with_pow_method.pow(2));
 
-    //* FLOATING POINT METHODS
+    //? FLOATING POINT METHODS
 
     //* Floor
     // The (floor()) method rounds a floating-point number down and returns the largest integer value that is less than or equal to the given floating-point number
@@ -76,7 +76,7 @@ fn main() {
     let float_value_with_round_method: f64 = 3.1415926535897932384;
     println!("{}", float_value_with_round_method.round());
 
-    //* BOOLEAN METHODS
+    //? BOOLEAN METHODS
 
     //* Is Positive
     // The (is_positive()) method checks if the integer is greater than zero
@@ -96,7 +96,7 @@ fn main() {
         integer_value_with_is_negative_method.is_negative()
     );
 
-    //* ARRAY METHODS
+    //? ARRAY METHODS
 
     //* Len
     // The (len()) method returns the number of elements in an array or a slice

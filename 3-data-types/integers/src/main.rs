@@ -1,7 +1,7 @@
 //! Integer
 
 fn main() {
-    //* Signed
+    //? Signed
     // Signed integers can represent both positive and negative values, allowing for a wider range of numerical representation
 
     // The (i8) data type is a signed 8-bit integer, which can represent values from -128 to 127
@@ -16,7 +16,7 @@ fn main() {
     // The (i128) data type is a signed 128-bit integer, which can represent values from -2^127 to 2^126
     let one_hundred_twenty_eight_bit_signed: i128 = -3000000000000;
     
-    //* Unsigned
+    //? Unsigned
     // Unsigned integers can only represent non-negative values, which allows for a larger maximum value for the same number of bits
 
     // The (u8) data type is an unsigned 8-bit integer, which can represent values from 0 to 255
@@ -31,7 +31,7 @@ fn main() {
     // The (u128) data type is an unsigned 128-bit integer, which can represent values from 0 to 2^127
     let one_hundred_twenty_eight_bit_unsigned: u128 = 3000000000000000000000000000000;
 
-    //* Alternative Syntax
+    //? Alternative Syntax
     // Here, we are using a different syntax to define signed and unsigned integers.
     let signed_bit = 100i8; 
     let unsigned_bit = 200u8;

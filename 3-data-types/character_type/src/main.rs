@@ -7,6 +7,6 @@
 fn main() {
     //* Char
     // A character is always going to be marked with single quotes (''), and it can only be one character
-    let middle_initial: char 'M'; 
+    let middle_initial: char = 'M'; 
     let emoji: char = '🦀';
 }
